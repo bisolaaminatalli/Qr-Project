@@ -1,0 +1,56 @@
+:root{
+    --bg-colour:hsl(218, 44%, 22%);
+    --section-bgColour: hsl(212, 45%, 89%)
+}
+
+body{
+
+    background-color: var(--bg-colour);
+    font-family: 'Outfit', sans-serif;
+}
+
+section{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color : var(--section-bgColour);
+}
+
+
+.general-QR-Parent{
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:8px
+}
+   
+
+.QRcode{
+   width: 100%;
+   border-radius: 10px;
+}
+
+.QRcode img{
+    border-radius: 10px;
+}
+
+
+article{
+    text-align: center;
+}
+
+article h3{
+    font-weight: 700;
+}
+
+.paragraph{
+    font-size: 15px;
+}
